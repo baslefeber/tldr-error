@@ -12,6 +12,8 @@ I built this because I got sick of missing a single comma and watching Node vomi
 
 <!-- Drop a screenshot here once you have one -->
 <!-- ![Before and after comparison](./images/before-after.png) -->
+![CleanShot 2026-02-21 at 18 10 29](https://github.com/user-attachments/assets/11bedfc5-b5f2-4d3e-a327-8c098a7c81cf)
+
 
 ---
 
