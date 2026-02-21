@@ -1,6 +1,6 @@
 {
   "name": "tldr-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI wrapper that translates messy stack traces into readable summaries.",
   "main": "index.js",
   "bin": {
