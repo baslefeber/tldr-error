@@ -35,25 +35,28 @@ npm install -g tldr-error
 
 ## Usage
 
-Just put `tldr-error` in front of whatever command you normally run to start your app. It works with standard Node, npm scripts, or tsx.
+Typing `tldr-error` every time is annoying. You have two better options:
 
-**Instead of this:**
+### Option 1: The short alias
 
-```bash
-node index.js
-npm run dev
-tsx server.ts
-```
-
-**Do this:**
+Install globally and use the built-in 2-letter alias `te`:
 
 ```bash
-tldr-error node index.js
-tldr-error npm run dev
-tldr-error tsx server.ts
+te node index.js
+te tsx server.ts
+te npm run dev
 ```
 
-That's literally it.
+### Option 2: Set it and forget it (Recommended)
+
+Add it to your `package.json` scripts once — then just run `npm run dev` like you always do:
+
+```json
+"scripts": {
+  "dev": "tldr-error nodemon index.js",
+  "start": "tldr-error node index.js"
+}
+```
 
 Normal `console.log`s pass through perfectly. Warnings print normally. But if your app crashes, it swallows the ugly stack trace and prints a clean red box with your exact error summary and a clickable relative file path.
 

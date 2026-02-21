@@ -4,7 +4,8 @@
   "description": "A CLI wrapper that translates messy stack traces into readable summaries.",
   "main": "index.js",
   "bin": {
-    "tldr-error": "./index.js"
+    "tldr-error": "./index.js",
+    "te": "./index.js"
   },
   "dependencies": {
     "cross-spawn": "^7.0.3",
